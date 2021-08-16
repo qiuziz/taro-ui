@@ -20,9 +20,9 @@ const pages = [
   // 'pages/action/toast/index',
   // 'pages/action/modal/index',
   // 'pages/action/progress/index',
-  'pages/action/action-sheet/index'
+  'pages/action/action-sheet/index',
   // 'pages/action/swipe-action/index',
-  // 'pages/action/activity-indicator/index',
+  'pages/action/activity-indicator/index',
   // 'pages/action/message/index',
   // 'pages/navigation/drawer/index',
   // 'pages/navigation/pagination/index',
@@ -43,7 +43,7 @@ const pages = [
   // 'pages/form/input-number/index',
   // 'pages/form/radio/index',
   // 'pages/form/textarea/index',
-  // 'pages/form/switch/index',
+  'pages/form/switch/index'
   // 'pages/form/rate/index',
   // 'pages/form/picker/index',
   // 'pages/form/picker-view/index',

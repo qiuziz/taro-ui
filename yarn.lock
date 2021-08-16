@@ -5419,6 +5419,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-native@^0.64.13":
+  version "0.64.13"
+  resolved "https://registry.npmjs.org/@types/react-native/-/react-native-0.64.13.tgz#9e57b85631380b75979a09f5a97e1884299e8d5a"
+  integrity sha512-QSOBN6m3TKBPFAcDhuFItDQtw1Fo1/FKDTHGeyeTwBXd3bu0V9s+oHEhntHN7PUK5dAOYFWsnO0wynWwS/KRxQ==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@^16.0.0", "@types/react@^16.9.23", "@types/react@^16.9.32":
   version "16.9.34"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.34.tgz#f7d5e331c468f53affed17a8a4d488cd44ea9349"
@@ -22441,7 +22448,7 @@ taro-css-to-react-native@^2.0.4:
     "@tarojs/taro" "~3.0.2"
     react "^16.13.0"
     react-dom "^16.13.0"
-    taro-ui "file:../../../Library/Caches/Yarn/v6/npm-taro-ui-demo-3.0.0-alpha.10-255c29ca-c009-47b5-a569-f0066d5d123b-1623832877924/node_modules/taro-ui"
+    taro-ui "file:../../../Library/Caches/Yarn/v6/npm-taro-ui-demo-3.0.0-alpha.10-9afa63e5-ffe9-4849-8784-ff07fc435d96-1628840001941/node_modules/taro-ui"
 
 "taro-ui@file:packages/taro-ui":
   version "3.0.0-alpha.10"

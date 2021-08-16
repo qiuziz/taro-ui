@@ -1,8 +1,8 @@
-@import "~taro-ui/dist/style/mixins/index.scss";
-@import "~taro-ui/dist/style/variables/default.scss";
+// @import "~taro-ui/dist/style/mixins/index.scss";
+// @import "~taro-ui/dist/style/variables/default.scss";
 
-.activity-indicator-page .panel__content {
-  .example-item {
+.panel__content {
+  &--example-item {
     @include display-flex;
     @include align-items(center);
 
@@ -13,13 +13,10 @@
       margin-bottom: 20px;
     }
 
-    .subitem {
+    &--subitem {
       margin-left: 32px;
       @include flex(0, 0, auto);
 
-      &:first-child {
-        margin-left: 0;
-      }
     }
   }
 }

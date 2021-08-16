@@ -73,14 +73,9 @@ view {
  */
 .panel__content {
   &--example-item {
+    display: flex;
+    flex-direction: row;
     margin-bottom: 20px;
-
-    /*  #ifndef  rn  */
-    &:last-child {
-      margin-bottom: 0;
-    }
-
-    /*  #endif  */
 
     &--subitem {
        /*  #ifndef  rn  */

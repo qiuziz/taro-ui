@@ -45,7 +45,7 @@ export default class ActivityIndicatorPage extends React.Component<
             <View className='panel__content'>
               <View className='panel__content--example-item'>
                 <View className='panel__content--example-item--subitem'>
-                  <AtActivityIndicator size={20}></AtActivityIndicator>
+                  <AtActivityIndicator size={20} />
                 </View>
                 <View className='panel__content--example-item--subitem'>
                   <AtActivityIndicator size={24} />
@@ -108,10 +108,10 @@ export default class ActivityIndicatorPage extends React.Component<
           <View className='doc-body--panel'>
             <View className='panel__title'>垂直水平居中</View>
             <View className='panel__content'>
-              <View className='example-item example-item--center'>
+              <View className='panel__content--example-item panel__content--example-item--center'>
                 <AtActivityIndicator mode='center' />
               </View>
-              <View className='example-item example-item--center'>
+              <View className='panel__content--example-item panel__content--example-item--center'>
                 <AtActivityIndicator mode='center' content='Loading...' />
               </View>
             </View>
